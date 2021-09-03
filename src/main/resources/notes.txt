@@ -1,0 +1,72 @@
+PAYPALISHI R I N G = 4
+012345678910111213
+
+  0 1 2 3 4 5 6
+0 P     I     N
+1 A   L S   I G
+2 Y A   H R
+3 P     I
+
+полная итерация - 4
+2 моста
+
+full rows and single char rows
+
+string length -> ex 14
+rows full row is -> 4
+
+full row (4) + (row - 2)
+
+2 signle -> 4 - 2
+
+14 / 4 ~ 3 + (3 - 1) * 2
+
+4 zig-zag 4 = 2
+
+AS = 2
+01
+
+  0
+0 A
+1 S
+
+2 / 2 = 1
+
+
+PAYPALISHI R I N G = 3
+012345678910111213
+
+  0 1 2 3 4 5 6
+0 P   A   H   N
+1 A P L S I I G
+2 Y   I   R
+
+полная итерация 4
+3 моста
+
+full row -> 3
+lenght -> 14
+
+1 signle -> 3 - 2
+
+3 zig-zag 3 = 1
+
+14 / 3 ~ 4 + (4 - 1) * 1
+
+int col = 0; col < 
+00
+01
+02
+
+
+
+AB
+01
+
+  0 1
+0 A B
+
+COLS = fullFilledRows + bridges * bridgeLength
+COLS = 1 + 0 * -1 = 1 
+
+result = AB
